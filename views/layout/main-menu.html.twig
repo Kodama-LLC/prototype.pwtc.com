@@ -1,0 +1,55 @@
+<header data-sticky-container>
+    <div data-sticky data-options="marginTop:0;" style="width:100%">
+        <!-- desktop menu -->
+        <div class="row column hide-for-small-only">
+            <!-- logo -->
+            <a href="#" class="title float-left logo"><img src="web/images/minified/html5_base_logo.png" alt=""></a>
+            <!-- top row -->
+            <div class="top clearfix">
+                <ul class="login-menu menu float-right">
+                    <li><a href="#" class="fa fa-facebook"></a></li>
+                    <li><a href="#" class="fa fa-twitter"></a></li>
+                    <li><a href="#" class="tiny hollow button">Login</a></li>
+                </ul>
+            </div>
+            <!-- bottom row -->
+            <div class="bottom clearfix">
+                <ul class="dropdown menu hide-for-small-only float-right" data-dropdown-menu>
+                    <li><a href="{{ url('kitchen') }}">Kitchen Sink</a></li>
+                    <li>
+                        <a href="#">Sample Pages</a>
+                        <ul class="menu">
+                            <li><a href="{{ url('home') }}">Home</a></li>
+                            <li><a href="{{ url('inner') }}">Inner Page</a></li>
+                            <li><a href="{{ url('rides') }}">Calendar</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <!-- mobile menu title bar -->
+        <div class="title-bar" data-responsive-toggle="mobile-menu" data-hide-for="medium">
+            <div class="title-bar-left">
+                <div class="title-bar-title"><a href="#">PWTC</a></div>
+            </div>
+            <div class="title-bar-right">
+                <button class="menu-icon" type="button" data-toggle></button>
+                <a href="#" class="tiny hollow button">Login</a>
+            </div>
+        </div>
+        <!-- mobile menu -->
+        <div id="mobile-menu" class="hide-for-medium">
+            <ul class="vertical menu" data-accordion-menu>
+                <li>
+                    <a href="#">Sample Pages</a>
+                    <ul class="menu vertical nested">
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">Inner Page</a></li>
+                        <li><a href="#">Calendar</a></li>
+                    </ul>
+                </li>
+                <li><a href="#">Kitchen Sink</a></li>
+            </ul>
+        </div>
+    </div>
+</header>

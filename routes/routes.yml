@@ -1,0 +1,21 @@
+routes:
+  home:
+    path: /
+    method: GET
+    template: pages/index.html.twig
+  inner:
+    path: /inner
+    method: GET
+    template: pages/inner.html.twig
+  rides:
+    path: /rides
+    method: GET
+    template: pages/rides.html.twig
+  kitchen:
+    path: /kitchen
+    method: GET
+    template: pages/kitchen.html.twig
+  swatches:
+    path: /swatches
+    method: GET
+    template: pages/swatches.html.twig

@@ -1,0 +1,43 @@
+.sticky-container {
+  z-index: 2;
+  background-color: $dark-gray;
+  a {
+    color: $white;
+    &:hover {
+      color: $anchor-color;
+    }
+    &.fa {
+      padding: 0.7rem 0.5rem;
+    }
+  }
+  .button {
+    color: $white;
+    border-color: $white;
+    margin: 0;
+    &:hover {
+      color: $anchor-color;
+      border-color: $anchor-color;
+    }
+    @include breakpoint(medium) {
+      margin: 0.7rem 0 0.7rem 0.5rem;
+    }
+  }
+  .is-dropdown-submenu {
+    background-color: $dark-gray;
+  }
+  .is-dropdown-submenu-parent > a::after {
+    border-color: $white transparent transparent !important;
+  }
+}
+.sticky {
+  background-color: $dark-gray;
+}
+
+.login-menu {
+  padding-top: 0.7rem;
+}
+
+.logo {
+  position: absolute;
+  top: $global-margin;
+}

@@ -1,0 +1,15 @@
+{
+    "name": "yamiko/pwtc-design",
+    "authors": [
+        {
+            "name": "Robert M. Parker",
+            "email": "rparker@yamiko.ninja"
+        }
+    ],
+    "require": {
+        "twig/twig": "^1.24",
+        "symfony/yaml": "^3.0",
+        "silex/silex": "^1.3",
+        "silex/web-profiler": "^1.0"
+    }
+}

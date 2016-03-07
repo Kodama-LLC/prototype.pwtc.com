@@ -1,0 +1,5 @@
+twig.path: views
+twig.options:
+  debug: true
+  auto_reload: true
+  strict_variables: true

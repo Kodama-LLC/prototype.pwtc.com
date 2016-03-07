@@ -1,0 +1,16 @@
+$body-font-family: 'Roboto', sans-serif;
+$body-background: #F7F6F6;
+$dark-gray: #353535;
+
+$foundation-palette: (
+        primary: #01ccb9,
+        secondary: #BFE6EC,
+        success: #3adb76,
+        warning: #ffae00,
+        alert: #ec5840,
+        accent: #BD3C4E,
+        alt: #545386,
+);
+
+$accent-color: map-get($foundation-palette, accent);
+$alt-color: map-get($foundation-palette, alt);
