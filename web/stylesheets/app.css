@@ -424,7 +424,7 @@ body {
   font-weight: normal;
   line-height: 1.5;
   color: #0a0a0a;
-  background: #F7F6F6;
+  background: #FEFEFE;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale; }
 
@@ -2163,7 +2163,7 @@ legend {
   margin: 1.125rem 0; }
   /* line 30, ../../node_modules/foundation-sites/scss/forms/_fieldset.scss */
   .fieldset legend {
-    background: #F7F6F6;
+    background: #FEFEFE;
     padding: 0 0.1875rem;
     margin: 0;
     margin-left: -0.1875rem; }
@@ -2577,7 +2577,7 @@ select {
     float: left; }
     /* line 51, ../../node_modules/foundation-sites/scss/components/_button-group.scss */
     .button-group .button:not(:last-child) {
-      border-right: 1px solid #F7F6F6; }
+      border-right: 1px solid #FEFEFE; }
   /* line 145, ../../node_modules/foundation-sites/scss/components/_button-group.scss */
   .button-group.tiny .button {
     font-size: 0.6rem; }
@@ -3006,7 +3006,7 @@ select {
 
 /* line 56, ../../node_modules/foundation-sites/scss/components/_dropdown.scss */
 .dropdown-pane {
-  background-color: #F7F6F6;
+  background-color: #FEFEFE;
   border: 1px solid #999999;
   border-radius: 0;
   display: block;
@@ -3431,7 +3431,7 @@ body {
 .off-canvas-content,
 .off-canvas-content {
   min-height: 100%;
-  background: #F7F6F6;
+  background: #FEFEFE;
   transition: -webkit-transform 0.5s ease;
   transition: transform 0.5s ease;
   transition: transform 0.5s ease, -webkit-transform 0.5s ease;
@@ -5160,7 +5160,7 @@ table.hover tr:nth-of-type(even):hover {
   .rides .callout {
     margin: 0;
     color: #0a0a0a;
-    background-color: #F7F6F6; }
+    background-color: #FEFEFE; }
   /* line 105, ../scss/pages/_home.scss */
   .rides .button {
     margin-bottom: 0; }
@@ -5222,10 +5222,31 @@ img {
   padding-top: 4rem;
   padding-bottom: 1rem; }
 
-@media screen and (min-width: 40em) {
-  /* line 44, ../scss/app.scss */
-  .sidebar section {
+/* line 41, ../scss/app.scss */
+.two-col-section {
+  position: relative; }
+  /* line 43, ../scss/app.scss */
+  .two-col-section .content {
+    position: relative;
+    padding-top: 4rem;
+    padding-bottom: 1rem; }
+  /* line 48, ../scss/app.scss */
+  .two-col-section .sidebar {
+    position: relative;
+    background-color: #F6F6F6;
+    padding: 4rem 1rem 1rem; }
+  @media screen and (min-width: 40em) {
+    /* line 54, ../scss/app.scss */
+    .two-col-section .background {
+      background-color: #F6F6F6;
+      position: absolute;
+      top: 0;
+      bottom: 0;
+      left: calc(50% + 600px - 12.5%);
+      right: 0; } }
+  /* line 66, ../scss/app.scss */
+  .two-col-section .sidebar .menu a {
+    padding: 0 0 1rem 0; }
+  /* line 69, ../scss/app.scss */
+  .two-col-section .sidebar section {
     margin-bottom: 2rem; }
-  /* line 47, ../scss/app.scss */
-  .sidebar .menu a {
-    padding: 0 0 1rem 0; } }

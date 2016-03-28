@@ -1,11 +1,10 @@
 {% extends 'page.html.twig' %}
 {% block content %}
-    <section class="main-section">
-        <div class="row column">
-            <h1>Lorem ipsum dolor sit amet</h1>
-        </div>
-        <div class="row">
-            <article class="medium-8 large-9 columns">
+    <section class="two-col-section">
+        <div class="background"></div>
+        <div class="row" data-equalizer data-equalize-on="medium">
+            <article class="medium-8 large-9 columns content" data-equalizer-watch>
+                <h1>Lorem ipsum dolor sit amet</h1>
                 <p>
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                     Sed et tellus finibus sapien dictum viverra nec id risus.
@@ -60,7 +59,7 @@
                     Fusce ornare bibendum felis, eget rutrum augue blandit vitae. Phasellus sed pretium massa.
                 </p>
             </article>
-            <div class="medium-4 large-3 columns sidebar">
+            <div class="medium-4 large-3 columns sidebar" data-equalizer-watch>
                 <section>
                     <h4>Share</h4>
                     <span class='st_twitter_large' displayText='Tweet'></span>

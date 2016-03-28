@@ -38,14 +38,36 @@ img {
   padding-top: $global-margin * 4;
   padding-bottom: $global-margin;
 }
-
-.sidebar {
-  @include breakpoint(medium){
-    section {
-      margin-bottom: $global-margin * 2;
+.two-col-section {
+  position: relative;
+  .content {
+    position: relative;
+    padding-top: $global-margin * 4;
+    padding-bottom: $global-margin;
+  }
+  .sidebar {
+    position: relative;
+    background-color: #F6F6F6;
+    padding: $global-margin * 4 $global-margin $global-margin;
+  }
+  @include breakpoint(medium) {
+    .background {
+      background-color: #F6F6F6;
+      position: absolute;
+      top: 0;
+      bottom:0;
+      //center + half of grid to get right column
+      //- half of column width to get to left of column (without padding)
+      left:calc(50% + 600px - 12.5%);
+      right:0;
     }
+  }
+  .sidebar {
     .menu a {
       padding: 0 0 1rem 0;
+    }
+    section {
+      margin-bottom: $global-margin * 2;
     }
   }
 }
