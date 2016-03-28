@@ -4926,6 +4926,174 @@ table.hover tr:nth-of-type(even):hover {
     .copyright small {
       display: inline; } }
 
+/* line 1, ../scss/layout/_two-col.scss */
+.two-col-section {
+  position: relative; }
+  /* line 3, ../scss/layout/_two-col.scss */
+  .two-col-section .content {
+    position: relative;
+    padding-top: 4rem;
+    padding-bottom: 1rem; }
+
+/* line 9, ../scss/layout/_two-col.scss */
+.sidebar {
+  position: relative;
+  background-color: #F6F6F6;
+  padding: 1rem 0; }
+  /* line 13, ../scss/layout/_two-col.scss */
+  .sidebar .menu a {
+    padding: 0 0 1rem 0; }
+  /* line 16, ../scss/layout/_two-col.scss */
+  .sidebar section {
+    margin-bottom: 2rem; }
+
+@media screen and (min-width: 40em) {
+  /* line 21, ../scss/layout/_two-col.scss */
+  .background {
+    background-color: #F6F6F6;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: calc(50% + 600px - 12.5%);
+    right: 0; }
+
+  /* line 31, ../scss/layout/_two-col.scss */
+  .sidebar {
+    padding: 4rem 1rem 1rem; } }
+/* line 1, ../scss/modules/_rides-calendar.scss */
+.rides-filter-container {
+  margin-bottom: 1rem; }
+  /* line 3, ../scss/modules/_rides-calendar.scss */
+  .rides-filter-container .accordion-title {
+    background-color: #353535;
+    color: #fefefe;
+    font-size: 1.2rem; }
+    /* line 7, ../scss/modules/_rides-calendar.scss */
+    .rides-filter-container .accordion-title::before {
+      content: "\f054";
+      font-family: FontAwesome; }
+  /* line 12, ../scss/modules/_rides-calendar.scss */
+  .rides-filter-container .is-active .accordion-title::before {
+    content: "\f078";
+    font-family: FontAwesome; }
+  /* line 16, ../scss/modules/_rides-calendar.scss */
+  .rides-filter-container .accordion-content {
+    padding: 0; }
+
+/* line 20, ../scss/modules/_rides-calendar.scss */
+.rides-filter {
+  padding: 1rem;
+  margin: 0;
+  background-color: #353535;
+  color: #fefefe;
+  position: relative; }
+  /* line 26, ../scss/modules/_rides-calendar.scss */
+  .rides-filter label {
+    color: #fefefe; }
+  /* line 29, ../scss/modules/_rides-calendar.scss */
+  .rides-filter .simple.menu {
+    margin-bottom: 1rem; }
+  @media screen and (min-width: 40em) {
+    /* line 20, ../scss/modules/_rides-calendar.scss */
+    .rides-filter {
+      display: block; } }
+
+/* line 37, ../scss/modules/_rides-calendar.scss */
+.rides-calendar {
+  width: 100%; }
+  /* line 39, ../scss/modules/_rides-calendar.scss */
+  .rides-calendar .date {
+    font-size: 2rem; }
+    /* line 41, ../scss/modules/_rides-calendar.scss */
+    .rides-calendar .date .day-of-week {
+      font-size: 1rem; }
+  /* line 45, ../scss/modules/_rides-calendar.scss */
+  .rides-calendar .date {
+    padding-left: 12px; }
+  /* line 48, ../scss/modules/_rides-calendar.scss */
+  .rides-calendar .day {
+    border-left: 4px solid #BFE6EC;
+    margin-bottom: 1rem; }
+  /* line 52, ../scss/modules/_rides-calendar.scss */
+  .rides-calendar .day.previous {
+    display: none;
+    color: #999999; }
+    /* line 55, ../scss/modules/_rides-calendar.scss */
+    .rides-calendar .day.previous a {
+      color: #c8c8c8; }
+      /* line 57, ../scss/modules/_rides-calendar.scss */
+      .rides-calendar .day.previous a:hover {
+        color: #afafaf; }
+  /* line 62, ../scss/modules/_rides-calendar.scss */
+  .rides-calendar .day.current {
+    border-left-color: #BA383B; }
+    /* line 64, ../scss/modules/_rides-calendar.scss */
+    .rides-calendar .day.current a {
+      color: #BA383B; }
+      /* line 66, ../scss/modules/_rides-calendar.scss */
+      .rides-calendar .day.current a:hover {
+        color: #932c2f; }
+  /* line 71, ../scss/modules/_rides-calendar.scss */
+  .rides-calendar .day.future {
+    border-left-color: #999999;
+    color: #999999; }
+    /* line 74, ../scss/modules/_rides-calendar.scss */
+    .rides-calendar .day.future a {
+      color: #c8c8c8; }
+      /* line 76, ../scss/modules/_rides-calendar.scss */
+      .rides-calendar .day.future a:hover {
+        color: #afafaf; }
+  /* line 81, ../scss/modules/_rides-calendar.scss */
+  .rides-calendar .menu {
+    padding: 1rem; }
+    /* line 83, ../scss/modules/_rides-calendar.scss */
+    .rides-calendar .menu a {
+      padding: 0 0 0.5rem 0; }
+  @media screen and (min-width: 40em) {
+    /* line 37, ../scss/modules/_rides-calendar.scss */
+    .rides-calendar {
+      display: table; }
+      /* line 89, ../scss/modules/_rides-calendar.scss */
+      .rides-calendar .week {
+        display: table-row; }
+      /* line 92, ../scss/modules/_rides-calendar.scss */
+      .rides-calendar .day {
+        margin-bottom: 0;
+        border: none;
+        display: table-cell;
+        width: 14.28%; }
+      /* line 98, ../scss/modules/_rides-calendar.scss */
+      .rides-calendar .day.previous {
+        display: table-cell; }
+        /* line 100, ../scss/modules/_rides-calendar.scss */
+        .rides-calendar .day.previous .date {
+          border-top: 8px solid #c8c8c8; }
+      /* line 105, ../scss/modules/_rides-calendar.scss */
+      .rides-calendar .day.future .date {
+        border-top: 8px solid #999999; }
+      /* line 110, ../scss/modules/_rides-calendar.scss */
+      .rides-calendar .day.current .date {
+        border-top: 8px solid #BA383B; }
+      /* line 114, ../scss/modules/_rides-calendar.scss */
+      .rides-calendar .date {
+        padding-left: 0;
+        border-top: 8px solid #BFE6EC;
+        border-bottom: 1px solid #BFE6EC;
+        margin: 0.5rem;
+        padding-top: 1rem; } }
+
+/* line 1, ../scss/modules/_leader.scss */
+.leader {
+  text-align: center; }
+  /* line 3, ../scss/modules/_leader.scss */
+  .leader img {
+    border-radius: 100%;
+    max-width: 50%;
+    margin-bottom: 1rem; }
+  /* line 8, ../scss/modules/_leader.scss */
+  .leader .contact a {
+    padding: 0.2rem; }
+
 /* line 1, ../scss/modules/_rides-calendar.scss */
 .rides-filter-container {
   margin-bottom: 1rem; }
@@ -5202,51 +5370,30 @@ table.hover tr:nth-of-type(even):hover {
 .news {
   padding: 1rem 0; }
 
-/* line 18, ../scss/app.scss */
+/* line 21, ../scss/app.scss */
 img {
   vertical-align: baseline; }
 
-/* line 23, ../scss/app.scss */
-.swatches__swatch {
-  margin-bottom: 30px; }
-  /* line 26, ../scss/app.scss */
-  .swatches__swatch__list__item {
-    padding: 1rem 0;
-    font-size: 1.2rem; }
-    /* line 29, ../scss/app.scss */
-    .swatches__swatch__list__item.alt {
-      color: #FFF; }
-
-/* line 37, ../scss/app.scss */
+/* line 25, ../scss/app.scss */
 .main-section {
   padding-top: 4rem;
   padding-bottom: 1rem; }
 
-/* line 41, ../scss/app.scss */
-.two-col-section {
-  position: relative; }
-  /* line 43, ../scss/app.scss */
-  .two-col-section .content {
-    position: relative;
-    padding-top: 4rem;
-    padding-bottom: 1rem; }
-  /* line 48, ../scss/app.scss */
-  .two-col-section .sidebar {
-    position: relative;
-    background-color: #F6F6F6;
-    padding: 4rem 1rem 1rem; }
-  @media screen and (min-width: 40em) {
-    /* line 54, ../scss/app.scss */
-    .two-col-section .background {
-      background-color: #F6F6F6;
-      position: absolute;
-      top: 0;
-      bottom: 0;
-      left: calc(50% + 600px - 12.5%);
-      right: 0; } }
-  /* line 66, ../scss/app.scss */
-  .two-col-section .sidebar .menu a {
-    padding: 0 0 1rem 0; }
-  /* line 69, ../scss/app.scss */
-  .two-col-section .sidebar section {
-    margin-bottom: 2rem; }
+/* line 30, ../scss/app.scss */
+.term {
+  font-weight: bold; }
+
+/* line 34, ../scss/app.scss */
+.google-maps {
+  position: relative;
+  padding-bottom: 75%;
+  height: 0;
+  overflow: hidden; }
+
+/* line 40, ../scss/app.scss */
+.google-maps iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100% !important;
+  height: 100% !important; }

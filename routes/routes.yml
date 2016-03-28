@@ -11,6 +11,10 @@ routes:
     path: /rides
     method: GET
     template: pages/rides.html.twig
+  ride:
+    path: /ride
+    method: GET
+    template: pages/ride.html.twig
   kitchen:
     path: /kitchen
     method: GET

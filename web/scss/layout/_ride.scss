@@ -1,0 +1,11 @@
+.ride {
+  .description p:last-child {
+    margin: 0;
+  }
+  .description, .details, .location {
+    margin-bottom: $global-margin/2;
+    h4 {
+      margin-bottom: 0;
+    }
+  }
+}

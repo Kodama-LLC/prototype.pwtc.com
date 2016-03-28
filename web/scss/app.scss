@@ -8,8 +8,11 @@
 // sections
 @import "layout/header";
 @import "layout/footer";
+@import "layout/two-col";
 
 //modules
+@import "modules/rides-calendar";
+@import "modules/leader";
 @import "modules/rides-calendar";
 
 //pages
@@ -19,55 +22,25 @@ img {
   vertical-align: baseline;
 }
 
-.swatches {
-  &__swatch {
-    margin-bottom: 30px;
-    &__list {
-      &__item {
-        padding: 1rem 0;
-        font-size: 1.2rem;
-        &.alt {
-          color: #FFF;
-        }
-      }
-    }
-  }
-}
-
 .main-section {
   padding-top: $global-margin * 4;
   padding-bottom: $global-margin;
 }
-.two-col-section {
+
+.term {
+  font-weight: bold;
+}
+
+.google-maps {
   position: relative;
-  .content {
-    position: relative;
-    padding-top: $global-margin * 4;
-    padding-bottom: $global-margin;
-  }
-  .sidebar {
-    position: relative;
-    background-color: #F6F6F6;
-    padding: $global-margin * 4 $global-margin $global-margin;
-  }
-  @include breakpoint(medium) {
-    .background {
-      background-color: #F6F6F6;
-      position: absolute;
-      top: 0;
-      bottom:0;
-      //center + half of grid to get right column
-      //- half of column width to get to left of column (without padding)
-      left:calc(50% + 600px - 12.5%);
-      right:0;
-    }
-  }
-  .sidebar {
-    .menu a {
-      padding: 0 0 1rem 0;
-    }
-    section {
-      margin-bottom: $global-margin * 2;
-    }
-  }
+  padding-bottom: 75%; // This is the aspect ratio
+  height: 0;
+  overflow: hidden;
+}
+.google-maps iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100% !important;
+  height: 100% !important;
 }
