@@ -5,9 +5,16 @@
 @import "../js/slick-1.5.9/slick/slick";
 @import "../js/slick-1.5.9/slick/slick-theme";
 
-@import "header";
-@import "footer";
-@import "home";
+// sections
+@import "layout/header";
+@import "layout/footer";
+
+//modules
+@import "modules/rides-calendar";
+
+//pages
+@import "pages/home";
+
 img {
   vertical-align: baseline;
 }
@@ -39,54 +46,6 @@ img {
     }
     .menu a {
       padding: 0 0 1rem 0;
-    }
-  }
-}
-
-.rides-calendar {
-  width: 100%;
-  .date {
-    font-size: 2rem;
-    .day-of-week {
-      font-size: 1rem;
-    }
-  }
-  .date {
-    padding-left: 12px;
-  }
-  .day {
-    border-left: 4px solid $secondary-color;
-    margin-bottom: $global-margin;
-  }
-  .day.active {
-    border-left-color: $accent-color;
-  }
-  .menu {
-    padding: $global-margin;
-    a {
-      padding: 0 0 $global-margin/2 0;
-    }
-  }
-  @include breakpoint(medium) {
-    display: table;
-    .week {
-      display: table-row;
-    }
-    .day {
-      margin-bottom: 0;
-      border: none;
-      display: table-cell;
-      width: 14.28%;
-    }
-    .date {
-      padding-left: 0;
-      border-top: 8px solid $secondary-color;
-      border-bottom: 1px solid $secondary-color;
-      margin: $global-margin / 2;
-      padding-top: $global-margin;
-    }
-    .active .date {
-      border-top: 8px solid $accent-color;
     }
   }
 }

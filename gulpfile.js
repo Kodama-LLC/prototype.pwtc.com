@@ -31,7 +31,7 @@ gulp.task('images', function(){
             interlaced: true,
             multipass: true
         }))
-        .pipe(gulp.dest('web/images/manified'))
+        .pipe(gulp.dest('web/images/minified'))
         .pipe(livereload());
 });
 

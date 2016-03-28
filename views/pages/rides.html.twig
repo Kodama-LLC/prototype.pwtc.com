@@ -2,14 +2,217 @@
 {% block content %}
     <section class="main-section">
         <div class="row column">
-            <h1>Rides - March</h1>
             <div class="clearfix">
-                <a href="#" class="primary button float-left">Febuary</a>
-                <a href="#" class="primary button float-right">April</a>
+                <h1 class="text-center">Rides - March</h1>
+                <a href="#" class="button float-left"><i class="fa fa-chevron-left"></i> Febuary</a>
+                <a href="#" class="button float-right">April <i class="fa fa-chevron-right"></i></a>
             </div>
+            <ul class="accordion rides-filter-container" data-accordion data-allow-all-closed="true">
+                <li class="accordion-item is-active" data-accordion-item>
+                    <a href="#" class="accordion-title">Search</a>
+                    <div class="accordion-content" data-tab-content>
+                        <div class="rides-filter">
+                            <div class="row">
+                                <div class="medium-8 columns">
+                                    <label>Term
+                                        <input type="text" />
+                                    </label>
+                                </div>
+                                <div class="medium-4 columns">
+                                    <label>Instructor
+                                        <select name="instructor">
+                                            <option value="0">Any</option>
+                                            <option value="1">Bob Sahleen</option>
+                                            <option value="2">Bud Rice</option>
+                                            <option value="3">Cindy Bernert-Coppola</option>
+                                            <option value="4">Dick Weber</option>
+                                            <option value="5">Roger Harris</option>
+                                        </select>
+                                    </label>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="medium-4 columns">
+                                    <label>Terrain
+                                        <select name="terrain">
+                                            <option value="0">Any</option>
+                                            <option value="1">Flat</option>
+                                            <option value="2">Mostly Flat</option>
+                                            <option value="3">Small hills</option>
+                                            <option value="4">Large hills</option>
+                                            <option value="5">Mountainous</option>
+                                        </select>
+                                    </label>
+                                    <ul class="simple menu hide">
+                                        <li>
+                                            <input id="checkbox1" type="checkbox">
+                                            <label for="checkbox1">Not Specified</label>
+                                        </li>
+                                        <li>
+                                            <input id="checkbox2" type="checkbox">
+                                            <label for="checkbox2">Flat</label>
+                                        </li>
+                                        <li>
+                                            <input id="checkbox3" type="checkbox">
+                                            <label for="checkbox3">Mostly Flat</label>
+                                        </li>
+                                        <li>
+                                            <input id="checkbox4" type="checkbox">
+                                            <label for="checkbox4">Small Hills</label>
+                                        </li>
+                                        <li>
+                                            <input id="checkbox5" type="checkbox">
+                                            <label for="checkbox5">Large Hills</label>
+                                        </li>
+                                        <li>
+                                            <input id="checkbox6" type="checkbox">
+                                            <label for="checkbox6">Mountainous</label>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="medium-4 columns">
+                                    <label>Speed
+                                        <select name="speed">
+                                            <option value="0">Any</option>
+                                            <option value="1">10-13 mph</option>
+                                            <option value="2">13-15 mph</option>
+                                            <option value="3">15-17 mph</option>
+                                            <option value="4">&gt; 18 mph</option>
+                                        </select>
+                                    </label>
+                                </div>
+                                <div class="medium-4 columns">
+                                    <label>Length
+                                        <select name="speed">
+                                            <option value="0">Any</option>
+                                            <option value="1">&lt; 2 miles</option>
+                                            <option value="2">2-5 miles</option>
+                                            <option value="3">5-10 miles</option>
+                                            <option value="4">&gt; 10 miles</option>
+                                        </select>
+                                    </label>
+                                </div>
+                            </div>
+                            <div class="row column">
+                                <input type="Submit" class="accent button" value="Apply">
+                            </div>
+                        </div>
+                    </div>
+                </li>
+            </ul>
             <div class="rides-calendar">
+
                 <div class="week header">
-                    <div class="day">
+                    <div class="day previous">
+                        <div class="date">28 <span class="day-of-week">Sun</span></div>
+                        <ul class="vertical menu">
+                            <li>
+                                <div class="time">9:00<sup>am</sup></div>
+                                <a href="#">Ascension Series 1 Beauties of Tabor</a>
+                            </li>
+                            <li>
+                                <div class="time">10:00<sup>am</sup></div>
+                                <a href="#">Slow Poke Ride</a>
+                            </li>
+                            <li>
+                                <div class="time">10:30<sup>am</sup></div>
+                                <a href="#">A Larson's Bakery Ride</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="day previous">
+                        <div class="date">29 <span class="day-of-week">Mon</span></div>
+                        <ul class="vertical menu">
+                            <li>
+                                <div class="time">10:00<sup>am</sup></div>
+                                <a href="#">Monday Morning Meander</a>
+                            </li>
+                            <li>
+                                <div class="time">10:00<sup>am</sup></div>
+                                <a href="#">Two View Urban Ride</a>
+                            </li>
+                            <li>
+                                <div class="time">10:00<sup>am</sup></div>
+                                <a href="#">Visit The Mercado de Agustin (Tucson Ride Series)</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="day previous">
+                        <div class="date">1 <span class="day-of-week">Tue</span></div>
+                        <ul class="vertical menu">
+                            <li>
+                                <div class="time">9:30<sup>am</sup></div>
+                                <a href="#">Tuesday Morning Double Challenge</a>
+                            </li>
+                            <li>
+                                <div class="time">10:00<sup>am</sup></div>
+                                <a href="#">Tue AM Spin</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="day previous">
+                        <div class="date">2 <span class="day-of-week">Wed</span></div>
+                        <ul class="vertical menu">
+                            <li>
+                                <div class="time">9:30<sup>am</sup></div>
+                                <a href="#">Wednesday Morning Explorer</a>
+                            </li>
+                            <li>
+                                <div class="time">10:00<sup>am</sup></div>
+                                <a href="#">AGUA CALIENTE OASIS (Tucson Ride Series)</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="day previous">
+                        <div class="date">3 <span class="day-of-week">Thu</span></div>
+                        <ul class="vertical menu">
+                            <li>
+                                <div class="time">10:00<sup>am</sup></div>
+                                <a href="#">Westside Ride</a>
+                            </li>
+                            <li>
+                                <div class="time">10:00<sup>am</sup></div>
+                                <a href="#">Thursday Morning Triple Challenge</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="day previous">
+                        <div class="date">4 <span class="day-of-week">Fri</span></div>
+                        <ul class="vertical menu">
+                            <li>
+                                <div class="time">10:00<sup>am</sup></div>
+                                <a href="#">Friday Morning Quickie</a>
+                            </li>
+                            <li>
+                                <div class="time">10:00<sup>am</sup></div>
+                                <a href="#">JULIAN WASH/SANTA CRUZ TRAIL (Tucson Ride Series)</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="day previous">
+                        <div class="date">5 <span class="day-of-week">Sat</span></div>
+                        <ul class="vertical menu">
+                            <li>
+                                <div class="time">9:00<sup>am</sup></div>
+                                <a href="#">PWTC Reach The Beach Training Ride #4</a>
+                            </li>
+                            <li>
+                                <div class="time">9:30<sup>am</sup></div>
+                                <a href="#">Shute Park to Banks</a>
+                            </li>
+                            <li>
+                                <div class="time">9:30<sup>am</sup></div>
+                                <a href="#">Saturday Morning Medley</a>
+                            </li>
+                            <li>
+                                <div class="time">10:00<sup>am</sup></div>
+                                <a href="#">Meet PWTC / BITS - Vancouver Bakery Loop</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="week header">
+                    <div class="day previous">
                         <div class="date">6 <span class="day-of-week">Sun</span></div>
                         <ul class="vertical menu">
                             <li>
@@ -26,7 +229,7 @@
                             </li>
                         </ul>
                     </div>
-                    <div class="day">
+                    <div class="day previous">
                         <div class="date">7 <span class="day-of-week">Mon</span></div>
                         <ul class="vertical menu">
                             <li>
@@ -43,7 +246,7 @@
                             </li>
                         </ul>
                     </div>
-                    <div class="day active">
+                    <div class="day current">
                         <div class="date">8 <span class="day-of-week">Tue</span></div>
                         <ul class="vertical menu">
                             <li>
@@ -409,7 +612,7 @@
                             </li>
                         </ul>
                     </div>
-                    <div class="day">
+                    <div class="day future">
                         <div class="date">1 <span class="day-of-week">Fri</span></div>
                         <ul class="vertical menu">
                             <li>
@@ -422,117 +625,8 @@
                             </li>
                         </ul>
                     </div>
-                    <div class="day">
+                    <div class="day future">
                         <div class="date">2 <span class="day-of-week">Sat</span></div>
-                        <ul class="vertical menu">
-                            <li>
-                                <div class="time">9:00<sup>am</sup></div>
-                                <a href="#">PWTC Reach The Beach Training Ride #4</a>
-                            </li>
-                            <li>
-                                <div class="time">9:30<sup>am</sup></div>
-                                <a href="#">Shute Park to Banks</a>
-                            </li>
-                            <li>
-                                <div class="time">9:30<sup>am</sup></div>
-                                <a href="#">Saturday Morning Medley</a>
-                            </li>
-                            <li>
-                                <div class="time">10:00<sup>am</sup></div>
-                                <a href="#">Meet PWTC / BITS - Vancouver Bakery Loop</a>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="week header">
-                    <div class="day">
-                        <div class="date">3 <span class="day-of-week">Sun</span></div>
-                        <ul class="vertical menu">
-                            <li>
-                                <div class="time">9:00<sup>am</sup></div>
-                                <a href="#">Ascension Series 1 Beauties of Tabor</a>
-                            </li>
-                            <li>
-                                <div class="time">10:00<sup>am</sup></div>
-                                <a href="#">Slow Poke Ride</a>
-                            </li>
-                            <li>
-                                <div class="time">10:30<sup>am</sup></div>
-                                <a href="#">A Larson's Bakery Ride</a>
-                            </li>
-                        </ul>
-                    </div>
-                    <div class="day">
-                        <div class="date">4 <span class="day-of-week">Mon</span></div>
-                        <ul class="vertical menu">
-                            <li>
-                                <div class="time">10:00<sup>am</sup></div>
-                                <a href="#">Monday Morning Meander</a>
-                            </li>
-                            <li>
-                                <div class="time">10:00<sup>am</sup></div>
-                                <a href="#">Two View Urban Ride</a>
-                            </li>
-                            <li>
-                                <div class="time">10:00<sup>am</sup></div>
-                                <a href="#">Visit The Mercado de Agustin (Tucson Ride Series)</a>
-                            </li>
-                        </ul>
-                    </div>
-                    <div class="day">
-                        <div class="date">5 <span class="day-of-week">Tue</span></div>
-                        <ul class="vertical menu">
-                            <li>
-                                <div class="time">9:30<sup>am</sup></div>
-                                <a href="#">Tuesday Morning Double Challenge</a>
-                            </li>
-                            <li>
-                                <div class="time">10:00<sup>am</sup></div>
-                                <a href="#">Tue AM Spin</a>
-                            </li>
-                        </ul>
-                    </div>
-                    <div class="day">
-                        <div class="date">6 <span class="day-of-week">Wed</span></div>
-                        <ul class="vertical menu">
-                            <li>
-                                <div class="time">9:30<sup>am</sup></div>
-                                <a href="#">Wednesday Morning Explorer</a>
-                            </li>
-                            <li>
-                                <div class="time">10:00<sup>am</sup></div>
-                                <a href="#">AGUA CALIENTE OASIS (Tucson Ride Series)</a>
-                            </li>
-                        </ul>
-                    </div>
-                    <div class="day">
-                        <div class="date">7 <span class="day-of-week">Thu</span></div>
-                        <ul class="vertical menu">
-                            <li>
-                                <div class="time">10:00<sup>am</sup></div>
-                                <a href="#">Westside Ride</a>
-                            </li>
-                            <li>
-                                <div class="time">10:00<sup>am</sup></div>
-                                <a href="#">Thursday Morning Triple Challenge</a>
-                            </li>
-                        </ul>
-                    </div>
-                    <div class="day">
-                        <div class="date">8 <span class="day-of-week">Fri</span></div>
-                        <ul class="vertical menu">
-                            <li>
-                                <div class="time">10:00<sup>am</sup></div>
-                                <a href="#">Friday Morning Quickie</a>
-                            </li>
-                            <li>
-                                <div class="time">10:00<sup>am</sup></div>
-                                <a href="#">JULIAN WASH/SANTA CRUZ TRAIL (Tucson Ride Series)</a>
-                            </li>
-                        </ul>
-                    </div>
-                    <div class="day">
-                        <div class="date">9 <span class="day-of-week">Sat</span></div>
                         <ul class="vertical menu">
                             <li>
                                 <div class="time">9:00<sup>am</sup></div>
@@ -555,8 +649,8 @@
                 </div>
             </div>
             <div class="clearfix">
-                <a href="#" class="primary button float-left">Febuary</a>
-                <a href="#" class="primary button float-right">April</a>
+                <a href="#" class="button float-left"><i class="fa fa-chevron-left"></i> Febuary</a>
+                <a href="#" class="button float-right">April <i class="fa fa-chevron-right"></i></a>
             </div>
         </div>
     </section>

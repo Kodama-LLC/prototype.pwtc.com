@@ -1,16 +1,40 @@
 $body-font-family: 'Roboto', sans-serif;
+
+// colors
 $body-background: #F7F6F6;
 $dark-gray: #353535;
+$light-gray: #c8c8c8;
+$medium-gray: #999999;
 
 $foundation-palette: (
-        primary: #01ccb9,
-        secondary: #BFE6EC,
-        success: #3adb76,
-        warning: #ffae00,
-        alert: #ec5840,
-        accent: #BD3C4E,
-        alt: #545386,
+  primary: #53D9E6,
+  secondary: #BFE6EC,
+  success: #3adb76,
+  warning: #EEEB4F,
+  alert: #ec5840,
+  accent: #BA383B,
+  dark: $dark-gray
 );
 
 $accent-color: map-get($foundation-palette, accent);
-$alt-color: map-get($foundation-palette, alt);
+$dark-color: map-get($foundation-palette, dark);
+
+// fonts
+$header-sizes: (
+  small: (
+    'h1': 36,
+    'h2': 28,
+    'h3': 24,
+    'h4': 18,
+    'h5': 17,
+    'h6': 16,
+  ),
+  medium: (
+    'h1': 48,
+    'h2': 40,
+    'h3': 31,
+    'h4': 25,
+    'h5': 20,
+    'h6': 16,
+  ),
+);
