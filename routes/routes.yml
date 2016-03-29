@@ -7,6 +7,10 @@ routes:
     path: /inner
     method: GET
     template: pages/inner.html.twig
+  account:
+    path: /account
+    method: GET
+    template: pages/account.html.twig
   rides:
     path: /rides
     method: GET

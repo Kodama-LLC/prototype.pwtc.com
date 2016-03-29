@@ -5094,6 +5094,15 @@ table.hover tr:nth-of-type(even):hover {
   .leader .contact a {
     padding: 0.2rem; }
 
+/* line 2, ../scss/modules/_account.scss */
+.account-overview img {
+  border-radius: 100%;
+  max-width: 50%;
+  margin-bottom: 1rem; }
+/* line 7, ../scss/modules/_account.scss */
+.account-overview .contact a {
+  padding: 0.2rem; }
+
 /* line 2, ../scss/modules/_ride.scss */
 .ride .description p:last-child {
   margin: 0; }
@@ -5258,27 +5267,27 @@ table.hover tr:nth-of-type(even):hover {
 .news {
   padding: 1rem 0; }
 
-/* line 21, ../scss/app.scss */
+/* line 22, ../scss/app.scss */
 img {
   vertical-align: baseline; }
 
-/* line 25, ../scss/app.scss */
+/* line 26, ../scss/app.scss */
 .main-section {
   padding-top: 4rem;
   padding-bottom: 1rem; }
 
-/* line 30, ../scss/app.scss */
+/* line 31, ../scss/app.scss */
 .term {
   font-weight: bold; }
 
-/* line 34, ../scss/app.scss */
+/* line 35, ../scss/app.scss */
 .google-maps {
   position: relative;
   padding-bottom: 75%;
   height: 0;
   overflow: hidden; }
 
-/* line 40, ../scss/app.scss */
+/* line 41, ../scss/app.scss */
 .google-maps iframe {
   position: absolute;
   top: 0;
