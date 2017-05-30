@@ -38,3 +38,11 @@ $header-sizes: (
     'h6': 16,
   ),
 );
+
+$anchor-color: darken(#53D9E6, 15%);
+
+// title bar
+$titlebar-padding: 0.75rem;
+
+// accordion
+$accordion-item-padding: 0.75rem 1rem;

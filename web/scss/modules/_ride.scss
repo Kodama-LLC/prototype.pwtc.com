@@ -1,11 +1,26 @@
 .ride {
+  .description {
+    margin-bottom: 1rem;
+  }
   .description p:last-child {
     margin: 0;
   }
-  .description, .details, .location {
+  .details, .location {
     margin-bottom: $global-margin/2;
     h4 {
       margin-bottom: 0;
     }
+  }
+  .download.button {
+    margin: 0.5rem 0 1rem;
+    @include breakpoint(medium) {
+      float: right;
+      position: relative;
+      top: -2rem;
+      margin: 0 0 -1rem 0;
+    }
+  }
+  .download.button+br {
+    clear: both;
   }
 }

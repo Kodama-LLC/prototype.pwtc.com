@@ -1,1 +1,9 @@
-FallbackResource /pwtc-design/index.php
+#FallbackResource /pwtc-design/index.php
+<IfModule mod_rewrite.c>
+    Options -MultiViews
+
+    RewriteEngine On
+    RewriteBase /pwtc-design/index.php
+    RewriteCond %{REQUEST_FILENAME} !-f
+    RewriteRule ^ index.php [QSA,L]
+</IfModule>

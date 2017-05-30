@@ -3,7 +3,7 @@
   .accordion-title {
     background-color: $dark-gray;
     color: $white;
-    font-size: 1.2rem;
+    font-size: 1rem;
     &::before {
       content: "\f054";
       font-family: FontAwesome;
@@ -52,12 +52,16 @@
   .day.previous {
     display: none;
     color: $medium-gray;
+    border-left-color: $light-gray;
     a {
       color: $light-gray;
       &:hover {
         color: darken($light-gray, 10%);
       }
     }
+  }
+  .day.weekend {
+    border-left-color: $primary-color;
   }
   .day.current {
     border-left-color: $accent-color;
@@ -96,7 +100,7 @@
       width: 14.28%;
     }
     .day.previous {
-      display: table-cell;
+      display: table-cell !important;
       .date {
         border-top: 8px solid $light-gray;
       }
@@ -109,6 +113,11 @@
     .day.current {
       .date {
         border-top: 8px solid $accent-color;
+      }
+    }
+    .day.weekend {
+      .date {
+        border-top: 8px solid $primary-color;
       }
     }
     .date {

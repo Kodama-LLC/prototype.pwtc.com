@@ -1,11 +1,42 @@
 {% extends 'page.html.twig' %}
+{% set loggedin = true %}
 {% block content %}
     <section class="two-col-section">
         <div class="background"></div>
         <div class="row" data-equalizer data-equalize-on="medium">
-            <article class="medium-8 large-9 columns content account" data-equalizer-watch>
-                <h1>My Account</h1>
-
+            <div class="medium-4 medium-push-8 large-3 large-push-9 columns sidebar" data-equalizer-watch>
+                <h2>Membership</h2>
+                <ul class="no-bullet">
+                    <li><span class="term">Plan:</span> <span class="value">One Year</span></li>
+                    <li><span class="term">Joined:</span> <span class="value">November 30th 2015</span></li>
+                    <li><span class="term">Expires:</span> <span class="value">November 30th 2016</span></li>
+                    <li><a href="#">Renew</a></li>
+                </ul>
+            </div>
+            <article class="medium-8 medium-pull-4 large-9 large-pull-3 columns content account" data-equalizer-watch>
+                <h2>Basic Info <small><a href="#">Edit</a></small></h2>
+                <div class="row">
+                    <div class="large-6 columns">
+                        <div class="account-overview">
+                            <img src="web/images/minified/avatar.min.gif" alt="" />
+                        </div>
+                    </div>
+                    <div class="large-6 columns">
+                        <div class="account-overview">
+                            <ul class="contact vertical menu">
+                                <h3 class="name">Dick Weber</h3>
+                                <li><i class="fa fa-phone"></i> 503-658-3403</li>
+                                <li><i class="fa fa-mobile"></i> 503-781-3938</li>
+                                <li><i class="fa fa-envelope"></i> foo@bar.com </li>
+                                <li>
+                                    <i class="fa fa-building"></i>
+                                    1234 street st, Apt 120 <br />
+                                    Portland, OR
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
                 <h3>Family Members
                     <small><a href="#">Edit</a></small>
                 </h3>
@@ -15,13 +46,8 @@
                         <h5 class="name">Dick Weber</h5>
                         <ul class="contact vertical menu">
                             <li><i class="fa fa-phone"></i> 503-658-3403</li>
-                            <li><i class="fa fa-phone"></i> 503-781-3938</li>
+                            <li><i class="fa fa-mobile"></i> 503-781-3938</li>
                             <li><i class="fa fa-envelope"></i> foo@bar.com </li>
-                            <li>
-                                <i class="fa fa-building"></i>
-                                1234 street st, Apt 120 <br />
-                                Portland, OR
-                            </li>
                         </ul>
                     </div>
                     <div class="account-overview column">
@@ -29,13 +55,8 @@
                         <h5 class="name">Dick Weber</h5>
                         <ul class="contact vertical menu">
                             <li><i class="fa fa-phone"></i> 503-658-3403</li>
-                            <li><i class="fa fa-phone"></i> 503-781-3938</li>
+                            <li><i class="fa fa-mobile"></i> 503-781-3938</li>
                             <li><i class="fa fa-envelope"></i> foo@bar.com </li>
-                            <li>
-                                <i class="fa fa-building"></i>
-                                1234 street st, Apt 120 <br />
-                                Portland, OR
-                            </li>
                         </ul>
                     </div>
                     <div class="account-overview column">
@@ -43,13 +64,8 @@
                         <h5 class="name">Dick Weber</h5>
                         <ul class="contact vertical menu">
                             <li><i class="fa fa-phone"></i> 503-658-3403</li>
-                            <li><i class="fa fa-phone"></i> 503-781-3938</li>
+                            <li><i class="fa fa-mobile"></i> 503-781-3938</li>
                             <li><i class="fa fa-envelope"></i> foo@bar.com </li>
-                            <li>
-                                <i class="fa fa-building"></i>
-                                1234 street st, Apt 120 <br />
-                                Portland, OR
-                            </li>
                         </ul>
                     </div>
                     <div class="account-overview column">
@@ -57,37 +73,12 @@
                         <h5 class="name">Dick Weber</h5>
                         <ul class="contact vertical menu">
                             <li><i class="fa fa-phone"></i> 503-658-3403</li>
-                            <li><i class="fa fa-phone"></i> 503-781-3938</li>
+                            <li><i class="fa fa-mobile"></i> 503-781-3938</li>
                             <li><i class="fa fa-envelope"></i> foo@bar.com </li>
-                            <li>
-                                <i class="fa fa-building"></i>
-                                1234 street st, Apt 120 <br />
-                                Portland, OR
-                            </li>
                         </ul>
                     </div>
                 </div>
             </article>
-            <div class="medium-4 large-3 columns sidebar" data-equalizer-watch>
-                <div class="account-overview">
-                    <h4>
-                        Basic Info
-                        <small><a href="#">Edit</a></small>
-                    </h4>
-                    <img src="web/images/minified/avatar.min.gif" alt="" />
-                    <h5 class="name">Dick Weber</h5>
-                    <ul class="contact vertical menu">
-                        <li><i class="fa fa-phone"></i> 503-658-3403</li>
-                        <li><i class="fa fa-phone"></i> 503-781-3938</li>
-                        <li><i class="fa fa-envelope"></i> foo@bar.com </li>
-                        <li>
-                            <i class="fa fa-building"></i>
-                            1234 street st, Apt 120 <br />
-                            Portland, OR
-                        </li>
-                    </ul>
-                </div>
-            </div>
         </div>
     </section>
 {% endblock %}

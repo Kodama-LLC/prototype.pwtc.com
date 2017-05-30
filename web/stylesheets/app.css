@@ -1711,13 +1711,13 @@ h6 {
     font-size: 1rem; } }
 /* line 317, ../../node_modules/foundation-sites/scss/typography/_base.scss */
 a {
-  color: #53D9E6;
+  color: #1ebfce;
   text-decoration: none;
   line-height: inherit;
   cursor: pointer; }
   /* line 323, ../../node_modules/foundation-sites/scss/typography/_base.scss */
   a:hover, a:focus {
-    color: #2dd1e0; }
+    color: #1aa4b2; }
   /* line 331, ../../node_modules/foundation-sites/scss/typography/_base.scss */
   a img {
     border: 0; }
@@ -2422,7 +2422,7 @@ select {
 /* line 102, ../../node_modules/foundation-sites/scss/components/_accordion.scss */
 .accordion-title {
   display: block;
-  padding: 1.25rem 1rem;
+  padding: 0.75rem 1rem;
   line-height: 1;
   font-size: 0.75rem;
   color: #53D9E6;
@@ -3053,7 +3053,7 @@ select {
   width: 0;
   height: 0;
   border: inset 5px;
-  border-color: #53D9E6 transparent transparent;
+  border-color: #1ebfce transparent transparent;
   border-top-style: solid;
   border-bottom-width: 0;
   right: 5px;
@@ -3086,7 +3086,7 @@ select {
   width: 0;
   height: 0;
   border: inset 5px;
-  border-color: transparent #53D9E6 transparent transparent;
+  border-color: transparent #1ebfce transparent transparent;
   border-right-style: solid;
   border-left-width: 0; }
 /* line 44, ../../node_modules/foundation-sites/scss/components/_dropdown-menu.scss */
@@ -3096,7 +3096,7 @@ select {
   width: 0;
   height: 0;
   border: inset 5px;
-  border-color: transparent transparent transparent #53D9E6;
+  border-color: transparent transparent transparent #1ebfce;
   border-left-style: solid;
   border-right-width: 0; }
 @media screen and (min-width: 40em) {
@@ -3121,7 +3121,7 @@ select {
     width: 0;
     height: 0;
     border: inset 5px;
-    border-color: #53D9E6 transparent transparent;
+    border-color: #1ebfce transparent transparent;
     border-top-style: solid;
     border-bottom-width: 0;
     right: 5px;
@@ -3148,7 +3148,7 @@ select {
     width: 0;
     height: 0;
     border: inset 5px;
-    border-color: transparent #53D9E6 transparent transparent;
+    border-color: transparent #1ebfce transparent transparent;
     border-right-style: solid;
     border-left-width: 0; }
   /* line 44, ../../node_modules/foundation-sites/scss/components/_dropdown-menu.scss */
@@ -3158,7 +3158,7 @@ select {
     width: 0;
     height: 0;
     border: inset 5px;
-    border-color: transparent transparent transparent #53D9E6;
+    border-color: transparent transparent transparent #1ebfce;
     border-left-style: solid;
     border-right-width: 0; } }
 @media screen and (min-width: 64em) {
@@ -3183,7 +3183,7 @@ select {
     width: 0;
     height: 0;
     border: inset 5px;
-    border-color: #53D9E6 transparent transparent;
+    border-color: #1ebfce transparent transparent;
     border-top-style: solid;
     border-bottom-width: 0;
     right: 5px;
@@ -3210,7 +3210,7 @@ select {
     width: 0;
     height: 0;
     border: inset 5px;
-    border-color: transparent #53D9E6 transparent transparent;
+    border-color: transparent #1ebfce transparent transparent;
     border-right-style: solid;
     border-left-width: 0; }
   /* line 44, ../../node_modules/foundation-sites/scss/components/_dropdown-menu.scss */
@@ -3220,7 +3220,7 @@ select {
     width: 0;
     height: 0;
     border: inset 5px;
-    border-color: transparent transparent transparent #53D9E6;
+    border-color: transparent transparent transparent #1ebfce;
     border-left-style: solid;
     border-right-width: 0; } }
 /* line 141, ../../node_modules/foundation-sites/scss/components/_dropdown-menu.scss */
@@ -3275,7 +3275,7 @@ select {
     width: 0;
     height: 0;
     border: inset 5px;
-    border-color: transparent #53D9E6 transparent transparent;
+    border-color: transparent #1ebfce transparent transparent;
     border-right-style: solid;
     border-left-width: 0; }
   /* line 44, ../../node_modules/foundation-sites/scss/components/_dropdown-menu.scss */
@@ -3285,7 +3285,7 @@ select {
     width: 0;
     height: 0;
     border: inset 5px;
-    border-color: transparent transparent transparent #53D9E6;
+    border-color: transparent transparent transparent #1ebfce;
     border-left-style: solid;
     border-right-width: 0; }
   /* line 195, ../../node_modules/foundation-sites/scss/components/_dropdown-menu.scss */
@@ -4251,7 +4251,7 @@ table.hover tr:nth-of-type(even):hover {
 .title-bar {
   background: #0a0a0a;
   color: #fefefe;
-  padding: 0.5rem; }
+  padding: 0.75rem; }
   /* line 138, ../../node_modules/foundation-sites/scss/util/_mixins.scss */
   .title-bar::before, .title-bar::after {
     content: ' ';
@@ -4268,7 +4268,7 @@ table.hover tr:nth-of-type(even):hover {
   /* line 52, ../../node_modules/foundation-sites/scss/components/_title-bar.scss */
   .title-bar .menu-icon {
     margin-left: 0.25rem;
-    margin-right: 0.5rem; }
+    margin-right: 0.75rem; }
 
 /* line 70, ../../node_modules/foundation-sites/scss/components/_title-bar.scss */
 .title-bar-left {
@@ -4845,42 +4845,61 @@ table.hover tr:nth-of-type(even):hover {
     color: #fefefe; }
     /* line 6, ../scss/layout/_header.scss */
     .sticky-container a:hover {
-      color: #53D9E6; }
+      color: #1ebfce; }
     /* line 9, ../scss/layout/_header.scss */
     .sticky-container a.fa {
       padding: 0.7rem 0.5rem; }
   /* line 13, ../scss/layout/_header.scss */
+  .sticky-container .title-bar-title {
+    margin-top: 0.125rem; }
+  @media screen and (min-width: 40em) {
+    /* line 16, ../scss/layout/_header.scss */
+    .sticky-container .title {
+      font-size: 2rem;
+      position: relative;
+      top: -0.8rem;
+      margin-bottom: -1rem;
+      padding-left: 0; } }
+  /* line 25, ../scss/layout/_header.scss */
   .sticky-container .button {
     color: #fefefe;
     border-color: #fefefe;
-    margin: 0; }
-    /* line 17, ../scss/layout/_header.scss */
+    margin: 0;
+    margin-right: 1rem; }
+    /* line 30, ../scss/layout/_header.scss */
     .sticky-container .button:hover {
-      color: #53D9E6;
-      border-color: #53D9E6; }
+      color: #1ebfce;
+      border-color: #1ebfce; }
     @media screen and (min-width: 40em) {
-      /* line 13, ../scss/layout/_header.scss */
+      /* line 25, ../scss/layout/_header.scss */
       .sticky-container .button {
         margin: 0.7rem 0 0.7rem 0.5rem; } }
-  /* line 25, ../scss/layout/_header.scss */
+  /* line 38, ../scss/layout/_header.scss */
+  .sticky-container .my-profile-pic {
+    border-radius: 100%;
+    width: 32px; }
+  /* line 42, ../scss/layout/_header.scss */
+  .sticky-container .mobile-account-menu {
+    padding: 0 1.5rem 0 1rem;
+    margin-right: 0.5rem; }
+    /* line 45, ../scss/layout/_header.scss */
+    .sticky-container .mobile-account-menu .my-profile-pic {
+      height: 28px;
+      width: 28px; }
+  /* line 50, ../scss/layout/_header.scss */
   .sticky-container .is-dropdown-submenu {
     background-color: #353535; }
-  /* line 28, ../scss/layout/_header.scss */
+  /* line 53, ../scss/layout/_header.scss */
   .sticky-container .is-dropdown-submenu-parent > a::after {
     border-color: #fefefe transparent transparent !important; }
 
-/* line 32, ../scss/layout/_header.scss */
+/* line 57, ../scss/layout/_header.scss */
 .sticky {
   background-color: #353535; }
 
-/* line 36, ../scss/layout/_header.scss */
+/* line 61, ../scss/layout/_header.scss */
 .login-menu {
   padding-top: 0.7rem; }
-
-/* line 40, ../scss/layout/_header.scss */
-.logo {
-  position: absolute;
-  top: 1rem; }
 
 /* line 1, ../scss/layout/_footer.scss */
 .footer {
@@ -4928,28 +4947,74 @@ table.hover tr:nth-of-type(even):hover {
 
 /* line 1, ../scss/layout/_two-col.scss */
 .two-col-section {
-  position: relative; }
-  /* line 3, ../scss/layout/_two-col.scss */
+  position: relative;
+  overflow: hidden; }
+  /* line 4, ../scss/layout/_two-col.scss */
   .two-col-section .content {
     position: relative;
-    padding-top: 4rem;
+    padding-top: 1rem;
     padding-bottom: 1rem; }
+    @media screen and (min-width: 40em) {
+      /* line 4, ../scss/layout/_two-col.scss */
+      .two-col-section .content {
+        padding-top: 4rem;
+        padding-bottom: 1rem; } }
 
-/* line 9, ../scss/layout/_two-col.scss */
+/* line 14, ../scss/layout/_two-col.scss */
+.three-col-section {
+  background-color: #F6F6F6;
+  overflow: hidden; }
+  /* line 17, ../scss/layout/_two-col.scss */
+  .three-col-section .content {
+    background-color: #fefefe;
+    position: relative;
+    padding-top: 1rem;
+    padding-bottom: 1rem; }
+    @media screen and (min-width: 40em) {
+      /* line 17, ../scss/layout/_two-col.scss */
+      .three-col-section .content {
+        padding-top: 4rem;
+        padding-bottom: 1rem; } }
+
+/* line 28, ../scss/layout/_two-col.scss */
 .sidebar {
   position: relative;
   background-color: #F6F6F6;
-  padding: 1rem 0; }
-  /* line 13, ../scss/layout/_two-col.scss */
+  padding: 1rem; }
+  /* line 32, ../scss/layout/_two-col.scss */
   .sidebar .menu a {
     padding: 0 0 1rem 0; }
-  /* line 16, ../scss/layout/_two-col.scss */
+  /* line 35, ../scss/layout/_two-col.scss */
   .sidebar section {
     margin-bottom: 2rem; }
+  /* line 39, ../scss/layout/_two-col.scss */
+  .sidebar .side-nav ul {
+    border-top: 1px solid #353535; }
+  /* line 42, ../scss/layout/_two-col.scss */
+  .sidebar .side-nav li {
+    border-bottom: 1px solid #353535; }
+  /* line 45, ../scss/layout/_two-col.scss */
+  .sidebar .side-nav a {
+    padding: 1rem 0; }
+  @media screen and (min-width: 40em) and (max-width: 63.9375em) {
+    /* line 38, ../scss/layout/_two-col.scss */
+    .sidebar .side-nav {
+      margin: -4rem -1rem 1rem;
+      border-bottom: 1px solid #353535;
+      padding: 1rem; }
+      /* line 52, ../scss/layout/_two-col.scss */
+      .sidebar .side-nav ul, .sidebar .side-nav li {
+        border: none; }
+      /* line 55, ../scss/layout/_two-col.scss */
+      .sidebar .side-nav li:first-of-type a {
+        padding-left: 0; }
+      /* line 58, ../scss/layout/_two-col.scss */
+      .sidebar .side-nav li:last-of-type a {
+        padding-right: 0; } }
 
 @media screen and (min-width: 40em) {
-  /* line 21, ../scss/layout/_two-col.scss */
-  .background {
+  /* line 65, ../scss/layout/_two-col.scss */
+  .two-col-section .background {
     background-color: #F6F6F6;
     position: absolute;
     top: 0;
@@ -4957,7 +5022,7 @@ table.hover tr:nth-of-type(even):hover {
     left: calc(50% + 600px - 12.5%);
     right: 0; }
 
-  /* line 31, ../scss/layout/_two-col.scss */
+  /* line 75, ../scss/layout/_two-col.scss */
   .sidebar {
     padding: 4rem 1rem 1rem; } }
 /* line 1, ../scss/modules/_rides-calendar.scss */
@@ -4967,7 +5032,7 @@ table.hover tr:nth-of-type(even):hover {
   .rides-filter-container .accordion-title {
     background-color: #353535;
     color: #fefefe;
-    font-size: 1.2rem; }
+    font-size: 1rem; }
     /* line 7, ../scss/modules/_rides-calendar.scss */
     .rides-filter-container .accordion-title::before {
       content: "\f054";
@@ -5017,64 +5082,71 @@ table.hover tr:nth-of-type(even):hover {
   /* line 52, ../scss/modules/_rides-calendar.scss */
   .rides-calendar .day.previous {
     display: none;
-    color: #999999; }
-    /* line 55, ../scss/modules/_rides-calendar.scss */
+    color: #999999;
+    border-left-color: #c8c8c8; }
+    /* line 56, ../scss/modules/_rides-calendar.scss */
     .rides-calendar .day.previous a {
       color: #c8c8c8; }
-      /* line 57, ../scss/modules/_rides-calendar.scss */
+      /* line 58, ../scss/modules/_rides-calendar.scss */
       .rides-calendar .day.previous a:hover {
         color: #afafaf; }
-  /* line 62, ../scss/modules/_rides-calendar.scss */
+  /* line 63, ../scss/modules/_rides-calendar.scss */
+  .rides-calendar .day.weekend {
+    border-left-color: #53D9E6; }
+  /* line 66, ../scss/modules/_rides-calendar.scss */
   .rides-calendar .day.current {
     border-left-color: #BA383B; }
-    /* line 64, ../scss/modules/_rides-calendar.scss */
+    /* line 68, ../scss/modules/_rides-calendar.scss */
     .rides-calendar .day.current a {
       color: #BA383B; }
-      /* line 66, ../scss/modules/_rides-calendar.scss */
+      /* line 70, ../scss/modules/_rides-calendar.scss */
       .rides-calendar .day.current a:hover {
         color: #932c2f; }
-  /* line 71, ../scss/modules/_rides-calendar.scss */
+  /* line 75, ../scss/modules/_rides-calendar.scss */
   .rides-calendar .day.future {
     border-left-color: #999999;
     color: #999999; }
-    /* line 74, ../scss/modules/_rides-calendar.scss */
+    /* line 78, ../scss/modules/_rides-calendar.scss */
     .rides-calendar .day.future a {
       color: #c8c8c8; }
-      /* line 76, ../scss/modules/_rides-calendar.scss */
+      /* line 80, ../scss/modules/_rides-calendar.scss */
       .rides-calendar .day.future a:hover {
         color: #afafaf; }
-  /* line 81, ../scss/modules/_rides-calendar.scss */
+  /* line 85, ../scss/modules/_rides-calendar.scss */
   .rides-calendar .menu {
     padding: 1rem; }
-    /* line 83, ../scss/modules/_rides-calendar.scss */
+    /* line 87, ../scss/modules/_rides-calendar.scss */
     .rides-calendar .menu a {
       padding: 0 0 0.5rem 0; }
   @media screen and (min-width: 40em) {
     /* line 37, ../scss/modules/_rides-calendar.scss */
     .rides-calendar {
       display: table; }
-      /* line 89, ../scss/modules/_rides-calendar.scss */
+      /* line 93, ../scss/modules/_rides-calendar.scss */
       .rides-calendar .week {
         display: table-row; }
-      /* line 92, ../scss/modules/_rides-calendar.scss */
+      /* line 96, ../scss/modules/_rides-calendar.scss */
       .rides-calendar .day {
         margin-bottom: 0;
         border: none;
         display: table-cell;
         width: 14.28%; }
-      /* line 98, ../scss/modules/_rides-calendar.scss */
+      /* line 102, ../scss/modules/_rides-calendar.scss */
       .rides-calendar .day.previous {
-        display: table-cell; }
-        /* line 100, ../scss/modules/_rides-calendar.scss */
+        display: table-cell !important; }
+        /* line 104, ../scss/modules/_rides-calendar.scss */
         .rides-calendar .day.previous .date {
           border-top: 8px solid #c8c8c8; }
-      /* line 105, ../scss/modules/_rides-calendar.scss */
+      /* line 109, ../scss/modules/_rides-calendar.scss */
       .rides-calendar .day.future .date {
         border-top: 8px solid #999999; }
-      /* line 110, ../scss/modules/_rides-calendar.scss */
+      /* line 114, ../scss/modules/_rides-calendar.scss */
       .rides-calendar .day.current .date {
         border-top: 8px solid #BA383B; }
-      /* line 114, ../scss/modules/_rides-calendar.scss */
+      /* line 119, ../scss/modules/_rides-calendar.scss */
+      .rides-calendar .day.weekend .date {
+        border-top: 8px solid #53D9E6; }
+      /* line 123, ../scss/modules/_rides-calendar.scss */
       .rides-calendar .date {
         padding-left: 0;
         border-top: 8px solid #BFE6EC;
@@ -5084,15 +5156,19 @@ table.hover tr:nth-of-type(even):hover {
 
 /* line 1, ../scss/modules/_leader.scss */
 .leader {
-  text-align: center; }
-  /* line 3, ../scss/modules/_leader.scss */
+  text-align: center;
+  margin-bottom: 2rem; }
+  /* line 4, ../scss/modules/_leader.scss */
   .leader img {
     border-radius: 100%;
     max-width: 50%;
     margin-bottom: 1rem; }
-  /* line 8, ../scss/modules/_leader.scss */
-  .leader .contact a {
-    padding: 0.2rem; }
+  /* line 9, ../scss/modules/_leader.scss */
+  .leader .contact li {
+    margin-bottom: 0.4rem; }
+    /* line 11, ../scss/modules/_leader.scss */
+    .leader .contact li a {
+      display: inline; }
 
 /* line 2, ../scss/modules/_account.scss */
 .account-overview img {
@@ -5104,14 +5180,30 @@ table.hover tr:nth-of-type(even):hover {
   padding: 0.2rem; }
 
 /* line 2, ../scss/modules/_ride.scss */
+.ride .description {
+  margin-bottom: 1rem; }
+/* line 5, ../scss/modules/_ride.scss */
 .ride .description p:last-child {
   margin: 0; }
-/* line 5, ../scss/modules/_ride.scss */
-.ride .description, .ride .details, .ride .location {
+/* line 8, ../scss/modules/_ride.scss */
+.ride .details, .ride .location {
   margin-bottom: 0.5rem; }
-  /* line 7, ../scss/modules/_ride.scss */
-  .ride .description h4, .ride .details h4, .ride .location h4 {
+  /* line 10, ../scss/modules/_ride.scss */
+  .ride .details h4, .ride .location h4 {
     margin-bottom: 0; }
+/* line 14, ../scss/modules/_ride.scss */
+.ride .download.button {
+  margin: 0.5rem 0 1rem; }
+  @media screen and (min-width: 40em) {
+    /* line 14, ../scss/modules/_ride.scss */
+    .ride .download.button {
+      float: right;
+      position: relative;
+      top: -2rem;
+      margin: 0 0 -1rem 0; } }
+/* line 23, ../scss/modules/_ride.scss */
+.ride .download.button + br {
+  clear: both; }
 
 /* line 1, ../scss/pages/_home.scss */
 .slick-slider {
@@ -5234,28 +5326,29 @@ table.hover tr:nth-of-type(even):hover {
 .time sup {
   font-size: 0.8rem;
   text-transform: uppercase;
-  text-decoration: underline; }
+  padding-left: 0.2rem; }
 
 /* line 115, ../scss/pages/_home.scss */
 .hero {
   background-color: #BA383B;
   color: #FFF; }
   /* line 118, ../scss/pages/_home.scss */
-  .hero h2 {
-    margin: 1rem 0; }
+  .hero h3 {
+    margin: 1rem 0;
+    font-style: italic; }
 
-/* line 123, ../scss/pages/_home.scss */
+/* line 124, ../scss/pages/_home.scss */
 .why {
   background-color: #353535;
   color: #FFF;
   padding-top: 2rem; }
-  /* line 128, ../scss/pages/_home.scss */
+  /* line 129, ../scss/pages/_home.scss */
   .why .row {
     margin-bottom: 2rem;
     -webkit-transform-style: preserve-3d;
             transform-style: preserve-3d; }
   @media screen and (min-width: 64em) {
-    /* line 133, ../scss/pages/_home.scss */
+    /* line 134, ../scss/pages/_home.scss */
     .why .content {
       position: relative;
       top: 50%;
@@ -5263,31 +5356,66 @@ table.hover tr:nth-of-type(even):hover {
           -ms-transform: translateY(-50%);
               transform: translateY(-50%); } }
 
-/* line 141, ../scss/pages/_home.scss */
+/* line 142, ../scss/pages/_home.scss */
 .news {
   padding: 1rem 0; }
 
-/* line 22, ../scss/app.scss */
+/* line 23, ../scss/app.scss */
 img {
   vertical-align: baseline; }
 
-/* line 26, ../scss/app.scss */
+/* line 27, ../scss/app.scss */
+a.scroll-to-top {
+  position: fixed;
+  right: 1rem;
+  bottom: 1rem;
+  background-color: #53D9E6;
+  color: #fefefe;
+  text-align: center;
+  font-size: 2rem;
+  padding: 0 1rem;
+  z-index: 2;
+  border: 1px solid #fefefe;
+  display: none; }
+  /* line 39, ../scss/app.scss */
+  a.scroll-to-top:hover {
+    background-color: #26cfe0; }
+
+/* line 44, ../scss/app.scss */
+.has-tip {
+  font-weight: normal; }
+
+/* line 48, ../scss/app.scss */
+.tabs {
+  border: none;
+  background-color: #F6F6F6; }
+
+/* line 52, ../scss/app.scss */
+.tabs-title > a:focus, .tabs-title > a[aria-selected="true"] {
+  background-color: #353535;
+  color: #fefefe; }
+
+/* line 56, ../scss/app.scss */
+.tabs-content {
+  border-color: #F6F6F6; }
+
+/* line 60, ../scss/app.scss */
 .main-section {
   padding-top: 4rem;
   padding-bottom: 1rem; }
 
-/* line 31, ../scss/app.scss */
+/* line 65, ../scss/app.scss */
 .term {
   font-weight: bold; }
 
-/* line 35, ../scss/app.scss */
+/* line 69, ../scss/app.scss */
 .google-maps {
   position: relative;
   padding-bottom: 75%;
   height: 0;
   overflow: hidden; }
 
-/* line 41, ../scss/app.scss */
+/* line 75, ../scss/app.scss */
 .google-maps iframe {
   position: absolute;
   top: 0;
